@@ -3,10 +3,10 @@ const io = require('socket.io')(9000);
 var knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : '127.0.0.1',
+      host : 'localhost',
       port: '3306',
-      user : 'root',
-      password : '',
+      user : 'db_user',
+      password : 'J8VeW4Zc3mDLiUuX',
       database : 'tlurtc'
     }
 });
